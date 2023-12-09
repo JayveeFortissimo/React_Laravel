@@ -1,0 +1,146 @@
+.NV{
+    height: 6rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    box-shadow: 0px 15px 15px -15px #111111fc; 
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.pogi{
+    height: 3rem;
+    width: 10rem;
+    border:none;
+  font-size: 1rem;
+  background-color: rgb(219, 56, 84);
+ }
+
+ .LOLOPOP{
+    display: flex;
+    gap: 20px;
+ }
+
+.ParentDiv{
+    display: flex;
+    gap: 50px;
+}
+
+#IMGSS{
+    height: 7rem;
+}
+
+
+#IMGSI{
+    height: 7rem;
+}
+
+.MKL .CCC{
+    background-color:rgb(219, 56, 84);
+    height: 0.4rem;
+    width:  3rem;
+}
+
+.MKL{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    position: absolute;
+    visibility: hidden;
+}
+
+.PPS{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.PPS div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+
+.PPS div:hover{
+  background-color: white;
+  height: 2rem;
+}
+
+.Upbar{
+    position: relative;
+    background-color: rgb(219, 56, 84);
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    position: sticky;
+    top: 0;
+    animation: circle-in-hesitate 1s ease-in-out;
+}
+
+@keyframes circle-in-hesitate {
+    0% {
+      clip-path: circle(0%);
+    }
+    40% {
+      clip-path: circle(40%);
+    }
+    100% {
+      clip-path: circle(125%);
+    }
+  }
+  
+  [transition-style="in:circle:hesitate"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-hesitate both;
+  }
+
+@media screen and (max-width:600px) {
+
+    
+.ParentDiv{
+  visibility: hidden;
+}
+
+
+.MKL{
+    visibility: visible;
+    right: 40px;
+}
+
+#IMGSS{
+    position: relative;
+    left: 230px;
+}
+
+#IMGSI{
+    position: relative;
+    left: 130px;
+}
+
+
+.pogi{
+    height: 2rem;
+    width: 8rem;
+    font-size: 0.8em;
+ }
+
+ .LOLOPOP{
+    flex-direction: column;
+
+    margin-right: 100px;
+ }
+
+
+
+
+
+
+    
+}

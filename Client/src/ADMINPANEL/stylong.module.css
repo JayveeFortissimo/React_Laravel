@@ -1,0 +1,116 @@
+.karlo{
+    text-align: center;
+    padding: 0 15%;
+}
+.karlo h1{
+    margin-top: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    width: 20rem;
+    border: 2px solid rgb(231, 62, 90);
+    border-radius: 20px;
+
+    padding: 1rem;
+    text-align: left;
+}
+
+.active{
+    color: red;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 3% 0;
+
+    flex-wrap: wrap;
+}
+
+.food-btn{
+    margin-top: 1%;
+}
+.update{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: .5rem 1rem;
+    width: 49%;
+}
+.delete{
+    background-color: rgb(225, 26, 43);
+    border: none;
+    color: white;
+    padding: .5rem 1rem;
+
+    width: 49%;
+}
+
+.delete:hover{
+    background-color: rgb(46, 46, 55);
+}
+.update:hover{
+    background-color: rgb(46, 46, 55);
+}
+
+.select {
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: .6rem;
+        outline: 0;
+        border: 1px solid rgb(82, 82, 82);
+        border-radius: 10px;
+        background: #ffffff;
+        color: black;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: #000000;
+            background: #ffffff;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-top-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+
+.pink{
+    color: rgb(231, 62, 90);
+}

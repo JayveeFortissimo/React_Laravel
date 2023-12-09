@@ -1,0 +1,206 @@
+svg{
+    position: absolute;
+    z-index: 2;
+    bottom: -1px;
+  }
+
+.icon{
+    width: 1.7rem;
+}
+
+.login-btn{
+    border-radius: 15px;
+    outline: none;
+    border: none;
+
+    background-color: rgb(219, 56, 84);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+
+    padding: 10px 25px;
+    margin-left: 30px;
+}
+button{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.food-1{
+    padding: 5% 15%;
+}
+.food-hero{
+    display: flex;
+    gap: 5rem;
+}
+
+.food1-1{
+    width: 70%;
+    height: 35rem;
+
+    border-radius: 20px;
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.method{
+    width: 85rem;
+}
+
+.food-method{
+    display: flex;
+    gap: 5%;
+   
+}
+
+.ingredients ul {
+    padding: 0;
+}
+.step{
+    border-bottom: 1px solid rgb(148, 146, 146);
+}
+
+ul li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 2,6rem;
+}
+
+#cake{
+    background-image: url("cake.jpg");
+}
+#cupcake{
+    background-image: url("cupcake.jpg");
+}
+#drinks{
+    background-image: url("coffee.jpg");
+}
+#donut{
+    background-image: url("donut.jpg");
+}
+#pancake{
+    background-image: url("pancake.jpg");
+}
+
+.titles{
+    font-size: 2.1rem;
+}
+
+.method-1{
+    width: 115rem;
+}
+
+.method-2{
+    width: 145rem;
+}
+
+.ingredients-2 ul li{
+    margin-left: -40px;
+}
+.ingredients-2 p{
+    margin-left: -40px;
+}
+
+footer{
+    border-top: 3px solid rgb(219, 56, 84);;
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1% 15%;
+}
+.icon{
+    height: 35px;
+    margin-left: 30px;
+}
+.orange-text{
+    color: rgb(219, 56, 84);
+}
+
+
+@media screen and (max-width:600px) {
+
+    body{
+        text-align: center;
+    }
+    
+    nav li{
+        font-size: .9rem;
+    }
+    nav{
+        margin-left: -65px;
+    }
+    .sticky-nav li{
+        font-size: .9rem;
+        margin-left: 1rem;
+        padding: 0;
+    }
+    nav li:hover{
+        color: orange;
+    }
+
+    .sticky-nav{
+        margin-left: -50px;
+    }
+    
+   
+/* First Section ito yung maty title Side bar */
+ 
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+.logo{
+    width: 80px;
+    height: 40px;
+}
+
+footer p{
+    font-size: .8rem;
+}
+
+.food-hero{
+    flex-direction: column;
+}
+
+main{
+    padding: 5%;
+}
+.food1-1{
+    width:23rem;
+    height: 23rem;
+}
+.food-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-method{
+    flex-direction: column;
+}
+
+.method, .method-1, .method-2{
+    width: 100%;
+}
+.ingredients, .ingredients-1, .ingredients-2{
+    width: 100%;
+}
+
+
+}

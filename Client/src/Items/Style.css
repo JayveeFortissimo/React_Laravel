@@ -1,0 +1,63 @@
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #ffffff;
+    color: rgb(219, 56, 84);
+    padding: 15px;
+    box-shadow: 0px 15px 15px -15px #111111fc; 
+    position: relative;
+    z-index: 1;
+}
+
+.icon{
+    width: 1.7rem;
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(219, 56, 84);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+a:hover{
+    transition: .3s;
+    color: #fa760a;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+.login-btn{
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(219, 56, 84);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-left: 30px;
+}
+

@@ -1,0 +1,79 @@
+.ChildDiv form .input{
+    width:10rem;
+   
+}
+
+.ABTN button{
+    width: 100%;
+    max-width: 690px;
+       height: 3rem;
+       font-size: 1rem;
+       background-color: rgb(219, 56, 84);
+       border-radius: 5px;
+       border: none;
+}
+
+.ChildDiv{
+    border: 1px solid black;
+    width: 100%;
+   width: 500px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   height: 23rem;
+border-radius: 20px;
+box-shadow: 10px 10px 10px rgb(219, 56, 84);
+   
+}
+
+.ParentDiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ul li{
+    color: black;
+}
+
+table,thead,tr,th,td{
+    
+    border:2px solid black;
+    height: 2rem;
+    
+}
+
+.TT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ChildDiv form input{
+    height: 2rem;
+    width: 20rem;
+    margin: 10px;
+    padding: 0px 0px 0px 10px;
+}
+
+.MASTERS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BBB button{
+    height: 3rem;
+    width: 35rem;
+    background-color: rgb(219, 56, 84);
+    border: none;
+    border-radius: 2px;
+    font-size: 1.3rem;
+}

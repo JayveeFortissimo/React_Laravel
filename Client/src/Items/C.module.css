@@ -1,0 +1,275 @@
+
+
+.thin-1{
+    font-weight: 200;
+    font-size: 21px;
+}
+
+.cat{
+    background-color:rgba(250, 201, 208, 0.187);;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.details{
+    padding: 5% 35%;
+    text-align: center;
+    
+}
+
+.in{
+    margin: 5% 0 3% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.in input{
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid rgb(219, 56, 84);
+    margin-bottom: 15px;
+    height: 40px;
+    width: 100%;
+}
+
+.long{
+    height: 5rem;
+    overflow: hidden;
+    overflow: auto;
+}
+.send{
+    width: 90%;
+    background-color: rgb(219, 56, 84);
+    margin-top: 5%;
+
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    outline: none;
+    border: none;
+}
+.send:hover{
+    background-color: black;
+}
+
+.hero-title{
+    font-family: "Mafra W04 Black";
+    font-size: 3.1vw;
+}
+
+h1{
+    margin-bottom: 3%;
+}
+
+
+footer{
+    border-top: 3px solid rgb(219, 56, 84);
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1% 15%;
+}
+.icon{
+    height: 35px;
+    margin-left: 30px;
+}
+.orange-text{
+    color: rgb(219, 56, 84);
+}
+footer .logo-1{
+    margin-bottom: 1%;
+}
+.logo-1{
+    width: 7.5rem;
+    height: 7.2rem;
+
+    background-image: url("cwdlogo.png");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+@media screen and (max-width:600px) {
+    .logo-1{
+        width: 80px;
+        height: 80px;
+    }
+
+    body{
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+    }
+     
+    header{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        background-color: #080404;
+        color: white;
+        padding: 15px;
+        box-shadow: 0px 15px 15px -15px #111111fc; 
+        position: relative;
+        z-index: 1;
+    }
+    .logo{
+        width: 7rem;
+        height: 4rem;
+    }
+    header nav ul{
+        display: flex;
+        list-style-type: none;
+    }
+    header li {
+        margin-left: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(219, 56, 84);
+    }
+    a:hover{
+        transition: .3s;
+        color: #fa760a;
+    }
+    .login-btn{
+        border-radius: 15px;
+        outline: none;
+        border: none;
+    
+        background-color: rgb(219, 56, 84);
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 18px;
+    
+        padding: 10px 25px;
+        margin-left: 30px;
+    }
+    
+    button{
+        cursor: pointer;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+    }
+    
+    .hero-1{
+        background-color: #ffd8b8;  
+        display: flex;
+       align-items: center;
+        line-height: 1;
+        gap: 140px;
+        position: relative;
+    }
+    .thin-1{
+        font-weight: 200px;
+        font-size: 21px;
+    }
+    .thin{
+        font-weight: 200;
+        font-size: 1.5rem;
+    }
+    
+    .hero-title{
+        font-family: "Mafra W04 Black";
+        font-size: 3.1vw;
+    }
+    footer{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        padding: 3% 15%;
+    }
+    
+    .orange-text{
+        color: rgb(219, 56, 84);
+    }
+    .icon{
+        height: 35px;
+        margin-left: 30px;
+    }
+
+    .note{
+        font-size: .9rem;
+    }
+    
+    
+    /*////Media Queries*/
+    
+    @media screen and (max-width:600px) {
+    
+        body{
+            text-align: center;
+        }
+
+        .details{
+            padding: 5% 15%;
+        }
+        .hero-title{
+            font-size: 40px;
+        }
+        .hero-2 h1{
+            line-height: 1.1;
+        }
+        
+        nav li{
+            font-size: .8rem;
+        }
+       
+        .login-btn{
+            font-size: .8rem;
+            padding: 10px 10px;
+        }
+        .line-h{
+            font-size: 40px;
+            line-height: 1.2;
+        }
+        
+    
+    
+    /* First Section ito yung maty title Side bar */
+     
+    
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        background-color: white;
+    }
+    .logo{
+        width: 80px;
+        height: 40px;
+    }
+    
+
+    .thin{
+        font-size: 1.2rem;
+    }
+    
+    footer p {
+        font-size: .8rem;
+    }
+    }
+    
+
+}

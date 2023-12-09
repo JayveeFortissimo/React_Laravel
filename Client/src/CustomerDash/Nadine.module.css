@@ -1,0 +1,63 @@
+.Masters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Open{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Open button{
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(219, 56, 84);
+    border: none;
+}
+
+.MM button{
+    height: 2rem;
+    width: 11rem;
+    background-color: rgb(219, 56, 84);
+    border-radius: 2px;
+    border: none;
+}
+
+.MMX form input{
+    height: 2rem;
+    padding: 0px 0px 0px 10px;
+}
+
+
+.Recipt h3{
+    cursor: pointer;
+}
+
+
+.table,.thead,.tr,.th,.td{
+    border: 1px solid black;
+    column-span: no-span;
+    
+}
+
+.BTNSIE{
+    height: 2rem;
+    width: 5rem;
+    margin:20px;
+    background-color: rgb(219, 56, 84);
+    border: none;
+}
+
+.MMX{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+}

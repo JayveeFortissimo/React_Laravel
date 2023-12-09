@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: poppins;
+}
+
+.Header{
+    display: flex
+}
+
+.Header h1{
+  margin-top: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin-left: 5rem;
+    cursor: pointer;
+}
+.active{
+    color: red;
+}
+.Header{
+    border-bottom: 2px solid rgb(231, 62, 90);
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    height: 3.8rem;
+}
+
+
+
+.pink{
+    color: rgb(231, 62, 90);
+}
+
+
+/*///////////////////////////////////////////////////*/
+
+.MM{
+    text-align: center;
+    padding: 0 15%;
+}
+.MM h1{
+    margin-top: 3%;
+}
+
+
+
+
+.Register{
+  
+    border-right: 1px solid rgb(92, 89, 89);
+    
+    width: 20%;
+    height: 70vh;
+    padding: 0 4.5%;
+}
+
+.Account{
+    margin-top: 3%;
+}
+.box-1{
+    width: 15rem;
+    border: 2px solid rgb(231, 62, 90);
+    border-radius: 20px;
+
+    padding: 1rem;
+    text-align: center;
+}
+.Account{
+    display: flex;
+}
+
+.box{
+    width: 20rem;
+    height: 5.7rem;
+    border: 2px solid rgb(231, 62, 90);
+    border-radius: 20px;
+
+    padding: 1rem;
+    text-align: center;
+}
+
+.active{
+    color: red;
+}
+
+
+.container{
+    display: flex;
+  
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    padding-left:4%;
+}
+.update{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: .25rem 3rem;
+    width: 49%;
+}
+.delete{
+    background-color: rgb(225, 26, 43);
+    border: none;
+    color: white;
+    padding: .25rem 3rem;
+    width: 49%;
+}
+
+.food-btn{
+    margin-top: 1%;
+}
+
+
+
+.register{
+
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: .15rem 5.5rem;
+
+    width: 100%;
+}
+
+.delete:hover{
+    background-color: rgb(46, 46, 55);
+}
+.update:hover{
+    background-color: rgb(46, 46, 55);
+}
+
+
+.msg{
+    color: rgb(218, 41, 71);
+}
+
+.pink{
+    color: rgb(231, 62, 90);
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+
+
+.MM2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3% 15%;
+}
+.MM2 h1{
+    margin-bottom: 2%;
+}
+
+.add-product{
+    width: 25rem;
+    border: 2px solid rgb(231, 62, 90);
+
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-product input{
+    padding: .5rem;
+    margin-bottom: 1rem;
+    width:90%;
+
+    font-size: 15px;
+
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(82, 82, 82);
+}
+.add-product h2{
+    margin-bottom: 1rem;
+}
+
+.add-btn{
+    width: 95%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-family: poppins;
+    color: white;
+    background-color: rgb(231, 62, 90);
+    border: none;
+    border-radius: 15px;
+}
+
+.active{
+    color: red;
+}
+
+.add-btn:hover{
+    background-color: rgb(46, 46, 55);
+}
+.pink{
+    color: rgb(231, 62, 90);
+}
+
+/*********************************************************************************/
+
+@media screen and (max-width:600px) {
+    
+    .Header h1{
+        margin-top: 10px;
+        margin-left: 150px;
+      }
+
+      nav ul{
+        visibility: hidden;
+    }
+
+}

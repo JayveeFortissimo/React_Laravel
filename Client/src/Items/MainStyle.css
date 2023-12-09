@@ -1,0 +1,518 @@
+.hero1-1{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:40rem;
+    padding:  4.5%;
+}
+
+.hero1-btn{
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(219, 56, 84);
+    font-size:1rem ;
+    height: 3rem;
+    width: 20rem;
+}
+
+/*////////////////////////MoDALS BUTTONN?/////////////////////////////////////*/
+.hero1-btns{
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(219, 56, 84);
+    font-size:1rem ;
+    height: 2rem;
+    width: 8rem;
+}
+
+.total .pp{
+    color:rgb(219, 56, 84);
+}
+
+
+/*??????????????????????????????????????????????????????*??????//*/
+
+
+#uwu{
+    height: 80px;
+    width: 6rem;
+    position: relative;
+    top: 0;
+}
+
+.hero-1{
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    gap: 140px;
+    position: relative;
+    background-image: url(Back.jpg);
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+svg{
+    position: absolute;
+    top:230px;
+}
+
+.BTNS{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px 20px 0px;
+ 
+}
+.hero1-btn:hover{
+    background-color: black;
+}
+
+.hero1-2{
+    width: 50%;
+    padding: 0;
+    box-shadow: -8.5px -10px 15px -4px rgba(39, 35, 35, 0.556);
+}
+
+.hero1-2{
+    width: 50%;
+    padding: 0;
+    box-shadow: -8.5px -10px 15px -4px rgba(39, 35, 35, 0.556);
+}
+.hero-1 h3{
+    color: rgb(219, 56, 84);
+}
+.hero-1 h1{
+    font-family: "Mafra W04 Black";
+    font-size: 4rem;
+    color: white;
+}
+.hero-1 p{
+    color: white;
+    line-height: 1.3;
+}
+
+.hero-1 img{
+    width: 100%;
+    min-height: 100%;
+}
+
+.sticky-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    position: fixed;
+   width: 100%;
+    z-index: 5;
+    background-color:rgb(219, 56, 84); ;
+}
+.sticky-nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 25px;
+}
+.sticky-nav li {
+    margin-left: 7rem;
+}
+.sticky-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*////Main Contant */
+
+.food-title{
+    border-bottom: 3px solid rgb(219, 56, 84);
+
+}
+
+.food-section1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.Karlo{
+    display: flex;
+    gap: 20px;
+}
+
+.cake{
+    color: red;
+    border-bottom: 2px solid pink;
+}
+.section1-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+  
+}
+.section-food{
+    width: 18rem;
+    height: 22rem;
+    margin-bottom: 3%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.food-pic{
+    width: 100%;
+    height: 60%;
+}
+.food-pic img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.description{
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.description h2{
+    margin-bottom: -2px;
+}
+.description p{
+    color: rgb(232, 74, 100);
+}
+.order-btn{
+    background-color: rgb(219, 56, 84);
+    outline: none;
+
+    border: none ;
+    border-radius: 15px;
+    padding: 5px 20px;
+
+    color: white;
+    font-family: poppins;
+}
+
+.section-food:hover{
+    scale: 1.1;
+}
+/**********************************************************/
+body .active-modal{
+    overflow-y: hidden;
+}
+
+.Modal, .overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 10000;
+}
+.overlay{
+    background-color: rgba(49,49,49,0.8);
+}
+.modal-content{
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background-color: white;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 700px;
+    min-width: 800px;
+    scrollbar-gutter: stable;
+    z-index: 10000;
+}
+
+
+.modal-content input{
+    height: 1rem;
+}
+
+/*/////MODALS */
+
+
+
+
+
+/*///////One Modal */
+
+body .active-modals{
+    overflow-y: hidden;
+}
+
+.Modals, .overlays{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 10000;
+}
+.overlays{
+    background-color: rgba(49,49,49,0.8);
+}
+.modal-contents{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background-color: white;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 700px;
+    min-width: 800px;
+    scrollbar-gutter: stable;
+    z-index: 10000;
+}
+
+
+.modal-content input{
+    height: 1rem;
+}
+
+.MKLL{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.KAPE button{
+    height: 2rem;
+    width: 10rem;
+    background-color: rgb(219, 56, 84);
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+
+/*////////////////////modal2 done?/////*/
+.Batombakal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+
+/*?/////////////////////////////////*/
+.Jayvee{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.JOJO{
+    height: 15rem;
+    width: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.JAJA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BN2{
+    display: flex;
+    gap: 20px;
+}
+
+.BN2 button{
+height: 30px;
+width: 40px;
+}
+
+/*////////////////For Cake Slice////////////////*/
+
+.MAMOON{
+    display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    
+}
+
+.CC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.CC1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+.CC2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.CC3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.CC4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    padding: 0px 100px 0px 100px;
+}
+
+
+
+
+/*/////////////*/
+s.cart_box img{
+    width: 50px;
+    height: 50px;
+}
+.cart_img{
+    display: flex;
+    width: 400px;
+}
+.cart_img p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.cart_img img{
+    height: 3rem;
+}
+
+.cart_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(219, 56, 84);
+    padding-bottom: 5px;
+}
+.cart_box div:nth-child(2) button{
+    padding: 2px 5px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.cart_box div:nth-child(3) button{
+    padding: 2px 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:none;
+    outline: none;
+    color: white;
+    background-color: skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover{
+    background-color: darkseagreen;
+}
+.cart_box div:nth-child(3) span{
+    background-color: lightgreen;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.total span:nth-child(1){
+    font-size: 1.3rem;
+    color:rgb(219, 56, 84);;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.total span:nth-child(2){
+    font-size: 1.5rem;
+    color:rgb(219, 56, 84);;
+    font-weight: bold;
+}
+
+/*????????????????????????????*/
+.modal-content.receipt-modal {
+    width: 400px;
+    padding: 20px;
+  }
+  
+  .receipt-item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .receipt-item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .receipt-item-details {
+    flex: 1;
+  }
+  
+  .receipt-item-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .receipt-item-quantity,
+  .receipt-item-price {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .total {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+ 
+  .hero1-btn:hover {
+    background-color: #45a049;
+  }
+  

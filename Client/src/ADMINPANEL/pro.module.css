@@ -1,0 +1,172 @@
+.mk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3% 15%;
+}
+.mk h1{
+    margin-bottom: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.add-product{
+    width: 25rem;
+    border: 2px solid rgb(231, 62, 90);
+
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-product input{
+    padding: .5rem;
+    margin-bottom: 1rem;
+    width:90%;
+
+    font-size: 15px;
+
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(82, 82, 82);
+}
+.add-product h2{
+    margin-bottom: 1rem;
+}
+
+
+.add-btn{
+    width: 95%;
+    padding: 15px 0;
+
+    font-size: 18px;
+    font-family: poppins;
+    color: white;
+    background-color: rgb(231, 62, 90);
+    border: none;
+    border-radius: 15px;
+}
+
+
+.container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+    flex-wrap: wrap;
+}
+.food-box{
+    width: 20rem;
+    height: 25rem;
+    border: 4px solid rgb(231, 62, 90);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.food-pic{
+    width: 100%;
+    height: 60%;
+}
+.food-pic img{
+    height: 100%;
+    width: 100%;
+}
+.description{
+    padding: 5%;
+}
+.food-btn{
+    margin-top: 5%;
+}
+
+.active{
+    color: red;
+}
+
+.update{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: .5rem 1rem;
+    width: 49%;
+}
+.delete{
+    background-color: rgb(225, 26, 43);
+    border: none;
+    color: white;
+    padding: .5rem 1rem;
+
+    width: 49%;
+}
+
+.delete:hover{
+    background-color: rgb(46, 46, 55);
+}
+.update:hover{
+    background-color: rgb(46, 46, 55);
+}
+.add-btn:hover{
+    background-color: rgb(46, 46, 55);
+}
+.pink{
+    color: rgb(231, 62, 90);
+}
+
+/* DROP DOWN LIST */
+
+.select {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 15px;
+            width: 95%;
+        }    .select select {
+                font-family: 'Arial';
+                display: inline-block;
+                width: 100%;
+                cursor: pointer;
+                padding: .6rem;
+                outline: 0;
+                border: 1px solid rgb(82, 82, 82);
+                border-radius: 10px;
+                background: #ffffff;
+                color: black;
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+            }
+                .select select::-ms-expand {
+                    display: none;
+                }
+                .select select:hover,
+                .select select:focus {
+                    color: #000000;
+                    background: #ffffff;
+                }
+                .select select:disabled {
+                    opacity: 0.5;
+                    pointer-events: none;
+                }
+        .select_arrow {
+            position: absolute;
+            top: 16px;
+            right: 15px;
+            pointer-events: none;
+            border-style: solid;
+            border-width: 8px 5px 0px 5px;
+            border-color: #7b7b7b transparent transparent transparent;
+        }
+        .select select:hover ~ .select_arrow,
+        .select select:focus ~ .select_arrow {
+            border-top-color: #000000;
+        }
+        .select select:disabled ~ .select_arrow {
+            border-top-color: #cccccc;
+        }

@@ -1,0 +1,283 @@
+body{
+    height: 160vh;
+}
+
+.imgsie{
+    background-image: url(CAP.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+ line-height: 1.1;
+ margin-bottom: 50px;
+}
+
+.Textie h1{
+ font-size: 4rem;
+ color: white;
+ font-family: 'Poppins', sans-serif;
+}
+
+.bnb button{
+    height: 3rem;
+    width: 30rem;
+    background-color:rgb(219, 56, 84);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.options div{
+    height: 23rem;
+    width: 13rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: pink;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.options button{
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(219, 56, 84);
+}
+
+.options{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Desert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  gap: 30px;
+  margin: 20px 0px 230px 0px;
+  
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#ii{
+    height: 2rem;
+    cursor: pointer;
+}
+
+.Footersie{
+    height: auto;
+    background-color: rgb(34, 34, 100);
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.Logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Names{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.goodz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.goodz div{
+    height: 2rem;
+   
+    width: 2rem;
+    border-radius: 4px;
+}
+
+.options img{
+    height: 13rem;
+}
+
+/*////////////////////////////////////////////////////////////////*/
+
+
+.Cards{
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color:pink ;
+    flex-wrap: wrap;
+}
+
+.imgs{
+    width: 20rem;
+    background-image: url(Sweet.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.Texts #Jaks{
+    color: #FACBEA;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 1.5em;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke: 1px black; /* For Chrome/Safari/Opera */
+
+}
+
+.Texts #Register{
+font-size: 2rem;
+}
+
+
+h1 span{
+    font-size: 0.4em;
+}
+
+
+
+.Texts{
+   margin: 20px 0px 0px 30px;
+  width:15rem;
+}
+
+.Textsi{
+    line-height: 1.5rem;
+}
+
+.BTN{
+    margin: 20px 0px 0px 0px;
+    
+}
+.BTN button{
+    cursor: pointer;
+    background-color:  rgb(219, 56, 84);;
+    border: none;
+    border-radius: 1px;
+    font-size: 1.1em;
+    height: 1.5rem;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.sexy{
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+
+.Formsi form div{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 0.6em;
+   
+}
+
+
+.Formsi form input{
+      height: 2rem;
+      font-size: 0.6rem;
+      margin: 3px 0px 3px 0px;
+      border-radius: 3px;
+      border: none;
+      text-align: left;
+      padding: 0px 0px 0px 10px;
+}
+
+
+.links{
+    text-Align:'center';
+    cursor:'pointer';
+    height: 2rem;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+  
+}
+
+.links p{
+    cursor: pointer;
+    font-size:0.8rem;
+}
+
+p:hover{
+    text-decoration: underline;
+}
+
+span{
+    font-size: 1.4rem;
+  
+}
+
+#log{
+    height: 10rem;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .imgsie{
+        height: 40rem;
+        display: flex;
+        justify-content: Center;
+        align-items: center;  
+        padding:0px;
+        line-height: 1.2;
+    }
+    
+    .Textie h1{
+        font-size: 2.4rem;
+       }
+
+       
+.bnb button{
+    height: 2rem;
+    width: 16rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+   
+}
+
+.imgs{
+   width: 30rem;
+}
+
+
+
+    
+}

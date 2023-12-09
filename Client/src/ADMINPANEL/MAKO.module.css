@@ -1,0 +1,92 @@
+.KARLO{
+   display: flex;
+   flex-direction: column;
+}
+.KARLO h1{
+    margin-bottom: 2%;
+}
+
+.pink{
+    color: rgb(231, 62, 90);
+}
+/* main-------------------------------------------------------- */
+.row1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.568);
+    display: flex;
+    justify-content: center;
+}
+
+.col1{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.numlett{
+    border: 2px solid rgb(218, 41, 71);
+    border-radius: 20px;
+    padding: 4%;
+    background: rgba(231, 231, 231, 0.685);
+    display: flex;
+    gap: 2rem;
+}
+/* ----------------------------------------------------------------- */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.ordertbl{
+    border: 2px solid rgb(218, 41, 71);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+}
+.ordertbl table{
+    width: 100%;
+    background: rgba(231, 231, 231, 0.685);
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+.ordertbl tr,td,th{
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: left;
+}
+.tr1{
+    color:rgb(218, 41, 71);
+}
+
+/* -=------------------------------------------------------------------------------- */
+
+.Customertbl{
+    border: 2px solid rgb(218, 41, 71);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+}
+.Customertbl table{
+    width: 100%;
+    background: rgba(231, 231, 231, 0.685);
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+.Customertbl tr,td,th{
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: left;
+}
+.ordertbl img {
+    height:50px;
+}
+
+@media screen and (max-width:600px) {
+
+    .row1{
+        visibility: hidden;
+    }
+    
+}
